@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div>
+        <img src="image/bank.png" >
+    </div>
+    
+    <h1>การโอนเงิน</h1>
+    <div class="select">
+        <select name="format" id="format">
+            <option selected disabled>--เลือกธนาคาร-- </option>
+            <option value="BAY"> กรุงศรีอยุธยา </option>
+            <option value="K_bank"> กรุงไทย </option>
+            <option value="sec"> กสิกรไทย </option>
+            <option value="B_bank"> กรุงเทพ </option>
+            <option value="scb"> ไทยพาณิชย์ </option>
+            <option value="TMB"> ทืเอ็มบีธนาคาร </option>
+        </select>
+    </div>
+    <div class="main_input">
+        <h2> ชื่อผู้โอน </h2>
+            <div class="input_field">
+                <input type="name" id="name" placeholder=" name" required>
+            </div>
+         <h2> จำนวนเงิน </h2>
+            <div class="input_field">
+                 <input type="money" id="money" placeholder=" name" required>
+            </div>
+        <div class="button">
+            <input type="submit" value="submit">
+        </div>
+    </div>
+</body>
+</html>
